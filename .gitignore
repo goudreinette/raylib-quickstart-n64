@@ -6,3 +6,5 @@
 *.sprite
 *.map
 *.z64
+
+*.DS_Store
