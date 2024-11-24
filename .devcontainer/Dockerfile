@@ -1,1 +1,1 @@
-FROM docker.io/reinvdwoerd/raylib-n64
+FROM reinvdwoerd/raylib-n64
