@@ -2,7 +2,7 @@
     "build": {
         // Path is relative to the devcontainer.json file.
         "dockerfile": "Dockerfile"
-    },
+    }
 
 	// "customizations": {
 	// 	"vscode": {
@@ -15,5 +15,5 @@
 	// "workspaceMount": "source=${localWorkspaceFolder},target=/libdragon,type=bind",
 	// "workspaceFolder": "/libdragon"
 
-	"postCreateCommand": "bash scripts/post-create.sh"
+	// "postCreateCommand": "bash scripts/post-create.sh"
 }
