@@ -1,0 +1,8 @@
+*.d
+*.o
+*.dfs
+*.elf
+*.elf.*
+*.sprite
+*.map
+*.z64

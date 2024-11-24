@@ -1,9 +1,0 @@
-[submodule "libdragon"]
-path = libdragon
-url = https://github.com/DragonMinded/libdragon.git
-branch = "unstable"
-
-[submodule "raylib"]
-path = raylib
-url = https://github.com/raylib4Consoles/raylib4Nintendo64.git
-branch = "raylib4Consoles"

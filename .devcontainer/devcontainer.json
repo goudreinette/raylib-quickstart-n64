@@ -12,6 +12,8 @@
 	// 		]
 	// 	}
 	// },	
-	"workspaceMount": "source=${localWorkspaceFolder},target=/libdragon,type=bind",
-	"workspaceFolder": "/libdragon"
+	// "workspaceMount": "source=${localWorkspaceFolder},target=/libdragon,type=bind",
+	// "workspaceFolder": "/libdragon"
+
+	"postCreateCommand": "bash scripts/post-create.sh"
 }
