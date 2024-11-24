@@ -4,12 +4,14 @@
         "dockerfile": "Dockerfile"
     },
 
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"ms-vscode.cpptools",
-				"Tyriar.luna-paint"
-			]
-		}
-	}
+	// "customizations": {
+	// 	"vscode": {
+	// 		"extensions": [
+	// 			"ms-vscode.cpptools",
+	// 			"Tyriar.luna-paint"
+	// 		]
+	// 	}
+	// },	
+	"workspaceMount": "source=${localWorkspaceFolder},target=/libdragon,type=bind",
+	"workspaceFolder": "/libdragon"
 }

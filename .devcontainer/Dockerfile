@@ -3,6 +3,11 @@ FROM ghcr.io/dragonminded/libdragon:latest
 ENV DOCKER_CONTAINER=true
 
 
+RUN git clone https://github.com/raylib4Consoles/raylib -b raylib4Consoles /libdragon/raylib
 
-# Install NFLib
-# RUN cd libraries && git clone https://github.com/knightfox75/nds_nflib.git && mv nds_nflib nflib && ln -sT nflib /opt/devkitpro/nflib && cd nflib && make -f Makefile.dkp
+
+# RUN git clone https://github.com/DragonMinded/libdragon.git -b unstable && mv libdragon /libdragon/libdragon
+# RUN cd /libdragon && git clone https://github.com/raylib4Consoles/raylib -b raylib4Consoles
+# RUN cp custom/raylib4Nintendo64.mk $N64_INST/include
+# RUN cd raylib/src && make PLATFORM=PLATFORM_NINTENDO64
+# RUN cd raylib/src && make PLATFORM=PLATFORM_NINTENDO64 install
