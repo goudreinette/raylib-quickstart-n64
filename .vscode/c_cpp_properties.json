@@ -1,0 +1,24 @@
+{
+    "env": {
+        
+    },
+
+    "configurations": [
+    {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/libdragon/include/**",
+                "/n64_toolchain/include/**",
+                "/raylib/src/**"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/n64_toolchain/mips64-elf-g++",
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+
+
+    "version": 4
+}
