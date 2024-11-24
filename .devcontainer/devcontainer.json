@@ -1,8 +1,9 @@
 {
     "build": {
         // Path is relative to the devcontainer.json file.
-        "dockerfile": "Dockerfile"
-    }
+        "dockerfile": "Dockerfile-devcontainer"
+    },
+	
 
 	// "customizations": {
 	// 	"vscode": {
@@ -16,4 +17,12 @@
 	// "workspaceFolder": "/libdragon"
 
 	// "postCreateCommand": "bash scripts/post-create.sh"
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.cpptools",
+				"Tyriar.luna-paint"
+			]
+		}
+	}
 }
