@@ -1,4 +1,4 @@
-# Quick-start devcontainer for Raylib development for N64
+# Quick-start devcontainer for Raylib development on N64
 
 ![](./images/screenshot-light.png)
-![](./images/solar.gif)
+![Solar system demo running on Ares emulator](./images/solar.gif)
